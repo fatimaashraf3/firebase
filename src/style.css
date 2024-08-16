@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(169, 168, 168);
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container h1{
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+}
+.main{
+    animation: slide-in 0.5s ease-in;
+}
+
+.main{
+    animation: slide-in 0.5s ease-in;
+}
+#eyeicon{
+    float: right;
+    margin-right: 26%;
+}
+.margin{
+    margin-right: 2%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 80vh;
+    width: 40%;
+    padding-top: 2%;
+    background-color: white;
+    border-radius: 15px;
+}
+.container p{
+    padding-left: 5%;
+    padding-top: 3%;
+    font-size: 22px;
+}
+input{
+   width: 70%;
+   margin-left: 5%;
+   height: 4vh;
+}
+button{
+    height: 7vh;
+    width: 70%;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: #007bbf;
+    border-color: #007bbf;
+    border-radius: 10px;
+    margin-left: 13%;
+    margin-top: 6%;
+}
+button:hover{
+    background-color: #61bced;
+}
+.special{
+    font-size: 18px;
+    padding-left: 7%;
+    text-align: center;
+}
+.main-two{
+    height: 55vh;
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+}
+@keyframes slide-in {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+75%{
+    transform: translateY(-20%);
+}
+100%{
+    transform: translateY(0);
+    opacity: 1;
+}
+}
+
+.dash h1{
+    color: black;
+    text-align: center;
+}
+.dash button{
+    color: white;
+    background-color: #007bbf;
+    height: 7vh;
+    width: 30%;
+    font-size: 20px;
+    margin-left: 35%;
+} 
