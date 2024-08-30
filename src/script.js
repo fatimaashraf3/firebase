@@ -37,6 +37,7 @@
     const user = userCredential.user;
     alert("creating your account")
     window.location.href = "dashboard.html"
+    password.value = ""
     // ...
   })
   .catch((error) => {
@@ -50,4 +51,5 @@
 
   
   })
+
 
